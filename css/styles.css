@@ -20,6 +20,17 @@ body {
   line-height: 1.5;
 }
 
+/* Escala de títulos: cada nivel es claramente mayor que el texto */
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
 img {
   max-width: 100%;
   height: auto;
