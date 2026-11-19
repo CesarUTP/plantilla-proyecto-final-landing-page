@@ -1,0 +1,22 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Dependencias, si el grupo usa herramientas de JavaScript
+node_modules/
+
+# Claves y configuraciones privadas: NUNCA se suben
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Archivos temporales
+*.log
+*.tmp

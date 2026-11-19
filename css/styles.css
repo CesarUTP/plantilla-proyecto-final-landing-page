@@ -1,0 +1,36 @@
+/* Hoja de estilos base. El grupo la completa y la cambia según su diseño. */
+
+:root {
+  /* Colores y tipografía: cambiar por los del grupo */
+  --color-texto: #1f2430;
+  --color-fondo: #ffffff;
+  --color-principal: #4b2e83;
+  --fuente: system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fuente);
+  color: var(--color-texto);
+  background: var(--color-fondo);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header,
+main section,
+footer {
+  padding: 2rem 1rem;
+}
+
+/* COMPLETAR: estilos de cada sección.
+   Para la adaptación a celular, usar medidas flexibles y, si hace falta,
+   reglas con @media (min-width: 48rem) { ... } para pantallas grandes. */
