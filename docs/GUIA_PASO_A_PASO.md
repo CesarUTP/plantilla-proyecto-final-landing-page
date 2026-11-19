@@ -1,7 +1,9 @@
 # Guía paso a paso del Proyecto Final
 
-Esta guía sigue el procedimiento del enunciado, parte por parte, con el número de cada tarea (T1.1 a T5.3). En cada una verás **qué se entrega** y **cómo hacerlo**.
+Esta guía sigue el procedimiento del enunciado, parte por parte, con el número de cada tarea (T1.1 a T6.4). En cada una verás **qué se entrega** y **cómo hacerlo**.
 
+- **No necesitas ser experto.** Cada parte tiene **videos de YouTube de apoyo** en [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md), y puedes pedirle ayuda a una **inteligencia artificial** para entender comandos, errores y código. **El uso de la IA está permitido para acelerar el trabajo y para aprender; siempre se nombra dónde se usó** (en el pull request, en el README y en el informe).
+- El informe en Word (Parte 6) tiene su propia guía: [GUIA_DEL_INFORME.md](GUIA_DEL_INFORME.md).
 - Los nombres de los botones de GitHub aparecen en inglés, como los muestra la página.
 - Donde dice `USUARIO` se escribe el usuario de GitHub, y donde dice `REPO`, el nombre del repositorio del grupo.
 - **Nunca** se escribe una contraseña en un archivo del repositorio.
@@ -14,11 +16,13 @@ El trabajo no puede hacerse en un solo día: los commits de cada integrante debe
 |---|---|
 | Primeros días | Partes 1, 2 y 3 (equipo, repositorio y planificación). |
 | Días intermedios | Parte 4 (construir la página con ramas y pull requests). Empezar al menos 10 días antes de la entrega. |
-| Últimos días | Parte 5 (publicar, completar el README y verificar). |
+| Últimos días | Parte 5 (publicar, completar el README y verificar) y Parte 6 (informe en Word). Ir tomando las capturas del informe mientras se avanza. |
 
 ---
 
 ## Parte 1. Equipo, roles y acuerdos
+
+**Videos de apoyo:** Git y GitHub desde cero (sección 1 de [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md)).
 
 ### T1.1. Registrar a cada integrante
 **Se entrega:** la tabla del equipo (nombre y usuario de GitHub).
@@ -40,6 +44,8 @@ Responder las cinco normas: cómo se nombran las ramas, cómo se escriben los me
 ---
 
 ## Parte 2. Creación y configuración del repositorio
+
+**Videos de apoyo:** secciones 1 y 2 de [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md) (Git y GitHub desde cero; colaboradores y pull requests).
 
 ### T2.1. Crear el repositorio (lo hace el coordinador)
 **Se entrega:** el repositorio creado, **público**, con README, licencia y `.gitignore`.
@@ -111,6 +117,8 @@ git push -u origin feature/USUARIO-equipo
 
 ## Parte 3. Planificación de la landing page
 
+**Videos de apoyo:** sección 4 de [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md) (ver cómo se arma una landing page antes de decidir las secciones).
+
 ### T3.1. Elegir el tema
 **Se entrega:** la descripción del tema, de tres a cinco líneas, en el README.
 
@@ -152,10 +160,12 @@ Lista sugerida (el grupo puede cambiarla):
 
 ## Parte 4. Construcción colaborativa de la página
 
+**Videos de apoyo:** secciones 2, 3, 4 y 6 de [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md) (pull requests, conflictos, HTML y CSS, y uso de la IA).
+
 ### T4.1. Construir la página
 **Se entrega:** la página con todas las secciones de T3.2 en la rama `main`.
 
-La plantilla trae `index.html` en la raíz, `css/styles.css` y la carpeta `img/`. Se puede usar HTML y CSS, y JavaScript si el grupo lo desea. **El uso de inteligencia artificial para crear la página está permitido** (código, textos, diseño e imágenes), con las condiciones de la sección Observaciones del enunciado.
+La plantilla trae `index.html` en la raíz, `css/styles.css` y la carpeta `img/`. Se puede usar HTML y CSS, y JavaScript si el grupo lo desea. **El uso de inteligencia artificial está permitido** para crear la página (código, textos, diseño e imágenes), para acelerar el trabajo y para aprender, por ejemplo pidiéndole que explique el código que genera. **Siempre se nombra dónde se usó** (ver T4.3 y T5.2). Ideas de qué pedirle están en [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md).
 
 ### T4.2. Una rama por tarea, commits pequeños y push
 **Se entrega:** las ramas y los commits de cada integrante.
@@ -198,7 +208,7 @@ Buenas prácticas para los commits:
 **Autor:**
 1. Subir la rama con `git push` y pulsar **Compare & pull request**.
 2. Verificar que **base** sea `main` y **compare** sea tu rama.
-3. Completar la plantilla del pull request. Para cerrar el issue al fusionar, escribir `Closes #N` (con el número del issue).
+3. Completar la plantilla del pull request. Para cerrar el issue al fusionar, escribir `Closes #N` (con el número del issue). **En la casilla "Uso de inteligencia artificial", marcar si se usó o no y, si se usó, la herramienta y dónde (archivo o sección).**
 4. En **Reviewers**, elegir a un compañero **distinto de ti**.
 
 **Revisor:**
@@ -246,6 +256,8 @@ Usar solo imágenes, íconos, fuentes y plantillas propios, generados con IA o c
 
 ## Parte 5. Publicación, documentación y verificación
 
+**Videos de apoyo:** sección 5 de [RECURSOS_DE_APOYO.md](RECURSOS_DE_APOYO.md) (publicar con GitHub Pages).
+
 ### T5.1. Publicar con GitHub Pages (lo hace el coordinador)
 **Se entrega:** el enlace de la página publicada.
 
@@ -258,7 +270,7 @@ Usar solo imágenes, íconos, fuentes y plantillas propios, generados con IA o c
 ### T5.2. Completar el README
 **Se entrega:** el README completo.
 
-Debe incluir: nombre y descripción, enlace de la página, tabla de integrantes (usuario, rol y aportes principales), acuerdo de equipo, tecnologías, declaración del uso de IA y créditos. **Borrar el bloque "LEER PRIMERO" y todos los textos que dicen COMPLETAR.** Se edita con ramas y pull requests, igual que el resto.
+Debe incluir: nombre y descripción, enlace de la página, tabla de integrantes (usuario, rol y aportes principales), acuerdo de equipo, tecnologías, declaración del uso de IA (herramienta, **archivo o sección donde se usó**, para qué y cómo se revisó) y créditos. **Borrar el bloque "LEER PRIMERO" y todos los textos que dicen COMPLETAR.** Se edita con ramas y pull requests, igual que el resto.
 
 ### T5.3. Verificar que se vea el trabajo de todos
 **Se entrega:** el repositorio verificado y corregido antes de la fecha de entrega.
@@ -269,6 +281,24 @@ Debe incluir: nombre y descripción, enlace de la página, tabla de integrantes 
 4. **Issues, Closed:** los issues están asignados y cerrados.
 5. Abrir el repositorio y la página en una **ventana privada** del navegador para confirmar que son públicos.
 6. Completar la [lista de verificación](LISTA_DE_VERIFICACION.md).
+
+---
+
+## Parte 6. Informe en Word
+
+Esta parte tiene una guía completa, con la estructura, las tablas y una revisión final: [GUIA_DEL_INFORME.md](GUIA_DEL_INFORME.md).
+
+### T6.1. Redactar el informe
+**Se entrega:** el informe en Word, de máximo 8 páginas sin contar la portada, con nueve secciones en este orden: portada, descripción del proyecto, equipo y acuerdo, GitHub como herramienta colaborativa, evidencias, aporte de cada integrante, desafíos y aprendizajes, uso de inteligencia artificial y referencias.
+
+### T6.2. Tomar las cinco capturas de pantalla
+**Se entrega:** las capturas dentro del informe, numeradas, con título y fuente: Contributors, historial de commits, un pull request con revisión, la lista de issues y la página publicada. Se pueden ir tomando durante la Parte 4, a medida que el trabajo avanza.
+
+### T6.3. Declarar el uso de la IA en el informe
+**Se entrega:** una tabla que diga dónde se usó la IA, la herramienta, qué se le pidió, cómo se revisó y **qué aprendió el grupo**. El uso de la IA para acelerar y aprender está permitido; lo que se exige es nombrar dónde se usó.
+
+### T6.4. Revisar y nombrar el archivo
+**Se entrega:** el archivo `.docx` nombrado `Proyecto_Final_Grupo_N`, con máximo 8 páginas sin portada, figuras y tablas numeradas con título y fuente, y referencias en APA 7 (incluidos los videos o tutoriales que se usaron).
 
 ---
 
